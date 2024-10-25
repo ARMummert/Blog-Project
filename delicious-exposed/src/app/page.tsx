@@ -5,6 +5,7 @@ import Image from "next/image";
 import Navbar from "./navbar";
 import { Footer } from "./footer";
 import ContactForm from "./contact";
+import Blog from "./blog";
 
 export default function Home() {
   return (
@@ -41,6 +42,7 @@ export default function Home() {
       <section id="blog" className={styles.blog}>
         <h2 className={styles.blogHeader}>Blog</h2>
         <p className={styles.blogText}>Erin&apos;s blog will feature her gardening adventures, recipes, and take-out reviews. </p>
+        <Blog posts={[]} />
       </section>
       </div>
       <div className={styles.contactSection}>
