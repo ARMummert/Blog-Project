@@ -174,14 +174,14 @@ a.secondary {
 }
 
 .headerSection {
-  height: 100vh;
+  height: auto;
 }
 .aboutSection{
-  height: 100vh;
+  height: auto;
 }
 
 .blogSection {
-  height: 100vh;
+  height: auto;
 }
 
 .contactSection {

@@ -8,7 +8,7 @@ export default defineConfig({
   title: 'Delicious Exposed',
 
   projectId: '9x4wdslt',
-  dataset: 'production',
+  dataset: 'de-dataset',
 
   plugins: [structureTool(), visionTool()],
 
