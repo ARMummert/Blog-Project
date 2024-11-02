@@ -29,7 +29,7 @@ export default function Home() {
       </div>
       <div className={styles.aboutSection}> 
       <section id="about" className={styles.about}>
-        <h1 className={styles.aboutHeader}>About Erin</h1>
+        <h1 className={styles.aboutHeader}>About</h1>
         <p className={styles.aboutText}>Erin is a registered nurse who finds it therapeutic to garden, cook healthy meals, and find delicious food options.</p>
         <p className={styles.aboutText}>Erin&apos;s partners are her husband of 40 years and her Cavalier King Charles Gigi who enjoys daily walks and taste testing samples allowed for dogs. She spends her free time with her husband, Gigi and her grandchildren. The beach is one of her favorite getaways.</p>  
         <div className={styles.aboutImg}>
