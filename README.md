@@ -16,3 +16,5 @@ https://www.npmjs.com/package/next-sanity
 
 
 `npx sanity dev`
+
+![Web Developer Home](public/images/deliciousexposed.png)
