@@ -17,9 +17,9 @@ From Garden to Plate: Gardening Tips, Delicious Recipes, and Honest Takeout Revi
 A React / NextJS blog project for foodies.
 
 ## Features
-- Gardening tips
-- Delicious recipes
-- Honest takeout reviews
+- An about section highlighting the author
+- A Sanity CMS blog for gardening tips, take out reviews, and recipes
+- A contanct form using EmailJS
 
 ## Installation
 1. Clone the repository:
