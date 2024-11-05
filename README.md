@@ -1,7 +1,30 @@
 # food-blog
-A blog dedicated to food
+
+From Garden to Plate: Gardening Tips, Delicious Recipes, and Honest Takeout Reviews!
 
 ![Delicious Exposed Image](delicious-exposed/public/images/deliciousexposed.png)
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Technologies Used](#technologies-used)
+6. [Citations](#citations)
+7. [License](#license)
+
+## Introduction
+A React / NextJS blog project for foodies.
+
+## Features
+- Gardening tips
+- Delicious recipes
+- Honest takeout reviews
+
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/food-blog.git
 
 Citations: 
 
