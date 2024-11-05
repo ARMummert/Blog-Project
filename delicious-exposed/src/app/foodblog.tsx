@@ -1,8 +1,9 @@
 "use client";
 import styles from './foodblog.module.css';
 import { useEffect, useState } from 'react';
-import { PortableText } from '@portabletext/react';
+import { PortableText, PortableTextBlock } from '@portabletext/react';
 import { client } from './sanity-client';
+import Image from 'next/image';
 
 const FoodBlog = () => {
   interface Post {
@@ -15,7 +16,7 @@ const FoodBlog = () => {
       };
     };
     publishedAt: string;
-    body: any;
+    body: PortableTextBlock[];
   }
 
   const [posts, setPosts] = useState<Post[]>([]);
@@ -46,7 +47,7 @@ const FoodBlog = () => {
         <div className={styles.post} key={post._id}>
           <h2 className={styles.title}>{post.title}</h2>
           {post.mainImage && (
-            <img src={post.mainImage.asset.url} alt={post.title} />
+            <Image src={post.mainImage.asset.url} alt={post.title} />
           )}
           <p>Published on: {new Date(post.publishedAt).toLocaleDateString()}</p>
           <div className={styles.content}>

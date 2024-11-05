@@ -10,13 +10,13 @@ const Navbar = () => {
         if (window.scrollY > 50) {
           navbar.style.backgroundColor = 'transparent';
           navbar.style.borderBottom = '2px solid transparent';
-          for (let link of links) {
+          for (const link of links) {
             link.style.color = 'black';
           }
         } else {
           navbar.style.backgroundColor = 'black';
           navbar.style.borderBottom = '2px solid #860000';
-          for (let link of links) {
+          for (const link of links) {
             link.style.color = 'white';
           }
         }
