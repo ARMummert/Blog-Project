@@ -17,4 +17,4 @@ https://www.npmjs.com/package/next-sanity
 
 `npx sanity dev`
 
-![Delicious Exposed Image](public/images/deliciousexposed.png)
+![Delicious Exposed Image](delicious-exposed/public/images/deliciousexposed.png)
