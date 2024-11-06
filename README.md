@@ -1,5 +1,3 @@
-# food-blog
-
 From Garden to Plate: Gardening Tips, Delicious Recipes, and Honest Takeout Reviews!
 
 ![Delicious Exposed Image](delicious-exposed/public/images/deliciousexposed.png)
