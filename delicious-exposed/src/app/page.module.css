@@ -160,9 +160,8 @@ a.secondary {
     justify-content: center;
   }
   .headerText {
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 150px;
-    align-items: center;
   }
 }
 
@@ -251,8 +250,8 @@ a.secondary {
   font-size: 24px;
   font-family: 'Montserrat', sans-serif;
   margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 70px;
+  margin-right: 70px;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -297,19 +296,19 @@ a.secondary {
   }
   .aboutHeader {
     font-size: 44px;
-    margin-right: 250px;
+    justify-content: center;
   }
   .blogHeader {
     font-size: 30px;
-    margin-right: 280px;
+    justify-content: center;
   }
   .contactHeader {
     font-size: 20px;
-    margin-right: 280px;
+    justify-content: center;
   }
   .headerText {
     font-size: 30px;
-    margin-right: 250px;
+    justify-content: center;
   }
 }
 
