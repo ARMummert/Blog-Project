@@ -5,7 +5,7 @@ import Image from "next/image";
 import Navbar from "./navbar";
 import { Footer } from "./footer";
 import ContactForm from "./contact";
-import Blog from "./foodblog";
+import Blog from "./blog";
 
 export default function Home() {
   return (

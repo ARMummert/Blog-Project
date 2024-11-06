@@ -39,3 +39,24 @@
     margin-right: 20px;
     margin-top: 20px;
 }
+
+.dropdown {
+  width: 200px;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 50px;
+  background-color: white;
+  font-size: 16px;
+  color: #333;
+  }
+  
+.backButton {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}

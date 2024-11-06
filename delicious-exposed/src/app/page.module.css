@@ -159,6 +159,11 @@ a.secondary {
     align-items: center;
     justify-content: center;
   }
+  .headerText {
+    font-size: 30px;
+    margin-top: 150px;
+    align-items: center;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -233,7 +238,6 @@ a.secondary {
 .line {
   font-family: "Dancing Script", cursive;
 }
-
 .aboutHeader {
   font-size: 44px;
   font-family: Dancing Script, cursive;
@@ -259,7 +263,8 @@ a.secondary {
   margin-top: 50px;
   border-radius: 10px;
   margin-right: 20px;
-  width: 100%;
+  width: auto;
+  height: auto;
   max-width: 250px;
   height: auto;
 
@@ -269,7 +274,8 @@ a.secondary {
   border-radius: 10px;
   margin-top: 50px;
   margin-right: 20px;
-  width: 100%;
+  width: auto;
+  height: auto;
   max-width: 250px;
   height: auto;
 }
@@ -300,6 +306,10 @@ a.secondary {
   .contactHeader {
     font-size: 20px;
     margin-right: 280px;
+  }
+  .headerText {
+    font-size: 30px;
+    margin-right: 250px;
   }
 }
 
